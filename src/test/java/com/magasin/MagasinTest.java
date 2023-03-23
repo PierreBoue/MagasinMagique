@@ -1,5 +1,6 @@
 package com.magasin;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,7 +14,7 @@ class MagasinTest {
         app.updateQuality();
         assertEquals("foo", app.items[0].name);
     }
-/*
+    @Disabled
     @Test
     void specificTest()
     {
@@ -34,7 +35,7 @@ class MagasinTest {
         }
         fwriter.close();
     }
-*/
+
 
     @Test
     void compareToGolden()

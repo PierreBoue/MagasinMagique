@@ -15,6 +15,10 @@ class Magasin {
                     if (!items[i].name.equals("Kryptonite")) {
                         items[i].quality = items[i].quality - 1;
                     }
+                    if ( items[i].name.equals("Pouvoirs magiques"))
+                    {
+                        items[i].quality = items[i].quality - 1;
+                    }
                 }
             } else {
                 if (items[i].quality < 50) {

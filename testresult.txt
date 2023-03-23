@@ -2,37 +2,37 @@ generic, 4, 9
 Comté, 4, 11
 Kryptonite, 5, 10
 Pass VIP Concert, 4, 13
-Pouvoirs magiques, 4, 9
+Pouvoirs magiques, 4, 8
 generic, 3, 8
 Comté, 3, 12
 Kryptonite, 5, 10
 Pass VIP Concert, 3, 16
-Pouvoirs magiques, 3, 8
+Pouvoirs magiques, 3, 6
 generic, 2, 7
 Comté, 2, 13
 Kryptonite, 5, 10
 Pass VIP Concert, 2, 19
-Pouvoirs magiques, 2, 7
+Pouvoirs magiques, 2, 4
 generic, 1, 6
 Comté, 1, 14
 Kryptonite, 5, 10
 Pass VIP Concert, 1, 22
-Pouvoirs magiques, 1, 6
+Pouvoirs magiques, 1, 2
 generic, 0, 5
 Comté, 0, 15
 Kryptonite, 5, 10
 Pass VIP Concert, 0, 25
-Pouvoirs magiques, 0, 5
+Pouvoirs magiques, 0, 0
 generic, -1, 3
 Comté, -1, 17
 Kryptonite, 5, 10
 Pass VIP Concert, -1, 0
-Pouvoirs magiques, -1, 3
+Pouvoirs magiques, -1, 0
 generic, -2, 1
 Comté, -2, 19
 Kryptonite, 5, 10
 Pass VIP Concert, -2, 0
-Pouvoirs magiques, -2, 1
+Pouvoirs magiques, -2, 0
 generic, -3, 0
 Comté, -3, 21
 Kryptonite, 5, 10
