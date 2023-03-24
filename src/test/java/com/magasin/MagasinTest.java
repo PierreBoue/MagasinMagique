@@ -53,7 +53,7 @@ class MagasinTest {
             for (Item item:items)
             {
                String goal = item.toString();
-               String target = freader.readLine();
+               String target = freader.readLine() +"failing";
                assertEquals(goal, target);
             }
         }
