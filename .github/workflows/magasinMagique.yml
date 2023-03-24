@@ -14,4 +14,8 @@ jobs:
       - name: Run build with Gradle Wrapper
         run: ./gradlew build
       - name: Test project
-        run: ./gradlew test
+        outputs:
+          output1: ${{ steps.step1.outputs.test }}
+          steps:
+            id: step1
+            run: echo "./gradlew test" >> "$GITHUB_OUTPUT"
