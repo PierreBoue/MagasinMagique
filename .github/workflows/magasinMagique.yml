@@ -15,14 +15,5 @@ jobs:
         run: ./gradlew build
       - name: Test project
         uses: gradle/gradle-test-action@v2
-        outputs:
-          output1: ${{ steps.step1.outputs.test }}
-          uses: gradle/gradle-test-action@v2
-          steps:
-            id: step1
-            run: echo "./gradlew test" >> "$GITHUB_OUTPUT"
-      - name: outputs
-        runs-on: ubunutu:latest
-        needs: step1
-        steps:
-          run: echo "${{ steps.step1.outputs.test }}"
+      - name: Test project
+        run: ./gradlew test --info
