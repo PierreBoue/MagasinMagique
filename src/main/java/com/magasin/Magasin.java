@@ -8,12 +8,16 @@ class Magasin {
     }
 
     public void updateQuality() {
-        for (int i = 0; i < items.length; i++) {
+        for (int i = 0; i < items.length; i++)
+        {
             Item item = items[i];
             if (!item.name.equals("Comté")
-                    && !item.name.equals("Pass VIP Concert")) {
-                if (item.quality > 0) {
-                    if (!item.name.equals("Kryptonite")) {
+                    && !item.name.equals("Pass VIP Concert"))
+            {
+                if (item.quality > 0)
+                {
+                    if (!item.name.equals("Kryptonite"))
+                    {
                         item.quality = item.quality - 1;
                     }
                     if ( item.name.equals("Pouvoirs magiques"))
@@ -22,18 +26,24 @@ class Magasin {
                     }
                 }
             } else {
-                if (item.quality < 50) {
+                if (item.quality < 50)
+                {
                     item.quality = item.quality + 1;
 
-                    if (item.name.equals("Pass VIP Concert")) {
-                        if (item.sellIn < 11) {
-                            if (item.quality < 50) {
+                    if (item.name.equals("Pass VIP Concert"))
+                    {
+                        if (item.sellIn < 11)
+                        {
+                            if (item.quality < 50)
+                            {
                                 item.quality = item.quality + 1;
                             }
                         }
 
-                        if (item.sellIn < 6) {
-                            if (item.quality < 50) {
+                        if (item.sellIn < 6)
+                        {
+                            if (item.quality < 50)
+                            {
                                 item.quality = item.quality + 1;
                             }
                         }
