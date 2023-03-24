@@ -16,4 +16,4 @@ jobs:
 #      - name: Test project
 #        uses: gradle/gradle-test-action@v2
       - name: Test project
-        run: ./gradle test --info
+        run: ./gradlew test --debug
